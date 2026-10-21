@@ -6,6 +6,7 @@
 window.RDO_CONFIG = {
   API_URL: 'https://script.google.com/macros/s/AKfycbzCaC4qqu4PEjqHnbKXk0jDBz7tFOO-ae4mnV-lcF4bPUUUAP6iA0V1vwPe0woj2SD-/exec',
   CARIMBO_FOTO: true,      // grava a marca d'água Rijo (obra, data, hora, coordenadas) na foto
-  FOTO_MAX_PX: 1600,       // maior lado da foto depois de comprimida
-  FOTO_QUALIDADE: 0.72     // JPEG: ~300 a 600 KB por foto
+  FOTO_MAX_PX: 2560,       // maior lado da foto (2560 = ~5 MP; antes 1600)
+  FOTO_QUALIDADE: 0.88,    // JPEG: ~0,8 a 1,5 MB por foto (antes 0,72)
+  FOTO_MIN_PX: 1280        // abaixo disso a foto da galeria recebe o aviso "baixa resolução"
 };
